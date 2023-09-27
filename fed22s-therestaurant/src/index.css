@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+.loader {
+  &:empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f242c;
+  }
+}
+
+:root {
+  font-family: "Kite One", Arial, Helvetica, sans-serif;
+  background-color: #1f242c;
+  color: white;
+}
+
+text {
+  fill: white;
+  font-size: 1.6em;
+  letter-spacing: 0.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: 0px;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+}
+
+header {
+  position: absolute;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "fed22s-backend",
+  "version": "1.0.0",
+  "description": "Contains the api for the restaurant assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./fed22s-backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "nodemailer": "^6.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
